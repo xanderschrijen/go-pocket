@@ -61,7 +61,7 @@ Options for add:
   --tags <tags>           A comma-separated list of tags
 `
 
-	arguments, err := docopt.Parse(usage, nil, true, version, false)
+	arguments, err := docopt.ParseArgs(usage, nil, version)
 	if err != nil {
 		panic(err)
 	}
