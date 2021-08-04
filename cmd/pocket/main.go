@@ -17,8 +17,8 @@ import (
 	"text/template"
 
 	"github.com/docopt/docopt-go"
-	"github.com/motemen/go-pocket/api"
-	"github.com/motemen/go-pocket/auth"
+	"github.com/xanderschrijen/go-pocket/api"
+	"github.com/xanderschrijen/go-pocket/auth"
 )
 
 var version = "0.1"

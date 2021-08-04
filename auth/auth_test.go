@@ -6,9 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/motemen/go-pocket/api"
-	"github.com/motemen/go-pocket/auth"
 	. "github.com/onsi/gomega"
+	"github.com/xanderschrijen/go-pocket/api"
+	"github.com/xanderschrijen/go-pocket/auth"
 )
 
 func TestObtainRequestToken(t *testing.T) {

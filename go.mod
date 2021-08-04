@@ -1,4 +1,4 @@
-module github.com/motemen/go-pocket
+module github.com/xanderschrijen/go-pocket
 
 go 1.16
 
